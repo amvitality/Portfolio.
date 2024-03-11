@@ -260,9 +260,15 @@ nav li:first-child {
         width: 70% ;
     }
     .containerr {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-content: center !important;
         margin: 2rem; /* Reduce margin for smaller screens */
-        justify-content: center ;
+        align-items: center;
+        text-align: center;
     }
+    
     
     .title {
         width: 100%; /* Adjust width to fit the container */
